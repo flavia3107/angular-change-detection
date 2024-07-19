@@ -32,10 +32,10 @@ export class CounterComponent implements OnInit {
   }
 
   onDecrement() {
-    this.count.update((prevCount: number) => prevCount - 1);
+    this.count.update((prevCount) => prevCount - 1);
   }
 
   onIncrement() {
-    this.count.update((prevCount: number) => prevCount + 1);
+    this.count.update((prevCount) => prevCount + 1);
   }
 }
