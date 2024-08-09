@@ -1,12 +1,13 @@
 h1 {
   margin: 3rem 0;
   text-align: center;
-  color: #e2dfd6;
+  color: #5c5c5c;
 }
 
 .logo {
   display: flex;
   align-items: center;
+  padding: 1rem;
 }
 
 .logo > img {
@@ -47,9 +48,10 @@ h1 {
 }
 
 .row {
-  height: 1rem;
   display: flex;
   align-items: center;
+  justify-content: center;
+  gap: 10rem;
 }
 
 a {

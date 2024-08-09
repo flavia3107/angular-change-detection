@@ -3,8 +3,8 @@
   max-width: 25rem;
   margin: 3rem auto;
   padding: 1rem;
-  background-color: #2a262d;
-  border: 2px solid #a73cf8;
+  background-color: #dcdbd7;
+  border-radius: 22px;
 }
 
 label {
@@ -15,13 +15,16 @@ label {
 }
 
 textarea {
-  width: 100%;
-  font: inherit;
+  width: 90%;
+  margin: 0.7rem;
   padding: 0.5rem;
   border-radius: 4px;
-  border: 1px solid #a73cf8;
-  background-color: #544e5a;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #373333;
+}
+
+textarea:focus-visible {
+  outline: none;
 }
 
 .actions {
@@ -31,7 +34,7 @@ textarea {
 
 button {
   font: inherit;
-  background-color: #a73cf8;
+  background-color: #44424c;
   color: #ffffff;
   border: none;
   padding: 0.25rem 1rem;
