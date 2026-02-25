@@ -22,3 +22,18 @@ a {
   display: flex;
   flex-direction: column;
 }
+
+@media (max-width: 1000rem) {
+  .content {
+    flex-direction: column;
+    gap: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  app-counter,
+  app-messages {
+    min-width: 25rem;
+    width: 75%;
+    max-width: none;
+  }
+}
